@@ -25,8 +25,8 @@
       <file leaf-file-name="kw_search.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kw_search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.056947608">
-              <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.6833713">
+              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
               <folding>
                 <marker date="1550760425923" expanded="true" signature="687:745" placeholder="SELECT COUNT..#@__co_htmls..." />
               </folding>
@@ -221,8 +221,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kw_search.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.056947608">
-          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.6833713">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
           <folding>
             <marker date="1550760425923" expanded="true" signature="687:745" placeholder="SELECT COUNT..#@__co_htmls..." />
           </folding>
