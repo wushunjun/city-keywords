@@ -1,6 +1,6 @@
 <?php
 /**
- * 关键词排名查询
+ * 关键词排名查询1
  */
 require_once(dirname(__FILE__)."/config.php");
 require_once(DEDEINC."/datalistcp.class.php");
