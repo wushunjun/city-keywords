@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afff0869-81b7-4fce-bb2a-b4b8a32eeb94" name="Default" comment="" />
+    <list default="true" id="afff0869-81b7-4fce-bb2a-b4b8a32eeb94" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/keywordModule/modules/sample.js" afterPath="$PROJECT_DIR$/keywordModule/modules/sample.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kw_search.htm" afterPath="$PROJECT_DIR$/kw_search.htm" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kw_search.php" afterPath="$PROJECT_DIR$/kw_search.php" />
+    </list>
     <ignored path="layuiAdmin.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -25,16 +30,48 @@
       <file leaf-file-name="kw_search.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kw_search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6833713">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.59794986">
+              <caret line="54" column="48" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
               <folding>
-                <marker date="1550760425923" expanded="true" signature="687:745" placeholder="SELECT COUNT..#@__co_htmls..." />
+                <marker date="1550839630075" expanded="true" signature="155:211" placeholder="Select value..#@__sysconfig..." />
+                <marker date="1550839630075" expanded="true" signature="240:301" placeholder="Select value..#@__sysconfig..." />
+                <marker date="1550839630075" expanded="true" signature="1879:2052" placeholder="INSERT INTO `${{$addtable}}`..." />
+                <marker date="1550839630075" expanded="true" signature="2178:2209" placeholder="select * fro..#@_..." />
+                <marker date="1550839630075" expanded="true" signature="2178:2226" placeholder="select * fro..#@_..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kw_search.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kw_search.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.823529">
+              <caret line="66" column="60" selection-start-line="66" selection-start-column="60" selection-end-line="66" selection-end-column="60" />
+              <folding>
+                <element signature="n#style#0;n#div#1;n#blockquote#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#blockquote#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sample.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/keywordModule/modules/sample.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="101" column="43" selection-start-line="101" selection-start-column="43" selection-end-line="101" selection-end-column="43" />
+              <folding>
+                <marker date="1550833480476" expanded="true" signature="656:670" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -45,6 +82,8 @@
         <option value="$PROJECT_DIR$/index.htm" />
         <option value="$PROJECT_DIR$/test1.php" />
         <option value="$PROJECT_DIR$/s2.php" />
+        <option value="$PROJECT_DIR$/kw_search.htm" />
+        <option value="$PROJECT_DIR$/keywordModule/modules/sample.js" />
         <option value="$PROJECT_DIR$/kw_search.php" />
       </list>
     </option>
@@ -89,6 +128,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -107,15 +147,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layuiAdmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layuiAdmin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="keywordModule" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cxs365" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wnjx" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -161,7 +214,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -204,7 +257,25 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1550760425923" expanded="true" signature="687:745" placeholder="SELECT COUNT..#@__co_htmls..." />
+            <marker date="1550839630075" expanded="true" signature="155:211" placeholder="Select value..#@__sysconfig..." />
+            <marker date="1550839630075" expanded="true" signature="240:301" placeholder="Select value..#@__sysconfig..." />
+            <marker date="1550839630075" expanded="true" signature="1879:2052" placeholder="INSERT INTO `${{$addtable}}`..." />
+            <marker date="1550839630075" expanded="true" signature="2178:2209" placeholder="select * fro..#@_..." />
+            <marker date="1550839630075" expanded="true" signature="2178:2226" placeholder="select * fro..#@_..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kw_search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1550839630075" expanded="true" signature="155:211" placeholder="Select value..#@__sysconfig..." />
+            <marker date="1550839630075" expanded="true" signature="240:301" placeholder="Select value..#@__sysconfig..." />
+            <marker date="1550839630075" expanded="true" signature="1879:2052" placeholder="INSERT INTO `${{$addtable}}`..." />
+            <marker date="1550839630075" expanded="true" signature="2178:2209" placeholder="select * fro..#@_..." />
+            <marker date="1550839630075" expanded="true" signature="2178:2226" placeholder="select * fro..#@_..." />
           </folding>
         </state>
       </provider>
@@ -214,17 +285,54 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
           <folding>
-            <marker date="1550760425923" expanded="true" signature="687:745" placeholder="SELECT COUNT..#@__co_htmls..." />
+            <marker date="1550839630075" expanded="true" signature="155:211" placeholder="Select value..#@__sysconfig..." />
+            <marker date="1550839630075" expanded="true" signature="240:301" placeholder="Select value..#@__sysconfig..." />
+            <marker date="1550839630075" expanded="true" signature="1879:2052" placeholder="INSERT INTO `${{$addtable}}`..." />
+            <marker date="1550839630075" expanded="true" signature="2178:2209" placeholder="select * fro..#@_..." />
+            <marker date="1550839630075" expanded="true" signature="2178:2226" placeholder="select * fro..#@_..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kw_search.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.823529">
+          <caret line="66" column="60" selection-start-line="66" selection-start-column="60" selection-end-line="66" selection-end-column="60" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#blockquote#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#blockquote#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keywordModule/modules/sample.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="101" column="43" selection-start-line="101" selection-start-column="43" selection-end-line="101" selection-end-column="43" />
+          <folding>
+            <marker date="1550833480476" expanded="true" signature="656:670" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../cxs365/application/common.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4219858">
+          <caret line="902" column="4" selection-start-line="902" selection-start-column="4" selection-end-line="902" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/kw_search.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6833713">
-          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.59794986">
+          <caret line="54" column="48" selection-start-line="54" selection-start-column="48" selection-end-line="54" selection-end-column="48" />
           <folding>
-            <marker date="1550760425923" expanded="true" signature="687:745" placeholder="SELECT COUNT..#@__co_htmls..." />
+            <marker date="1550839630075" expanded="true" signature="155:211" placeholder="Select value..#@__sysconfig..." />
+            <marker date="1550839630075" expanded="true" signature="240:301" placeholder="Select value..#@__sysconfig..." />
+            <marker date="1550839630075" expanded="true" signature="1879:2052" placeholder="INSERT INTO `${{$addtable}}`..." />
+            <marker date="1550839630075" expanded="true" signature="2178:2209" placeholder="select * fro..#@_..." />
+            <marker date="1550839630075" expanded="true" signature="2178:2226" placeholder="select * fro..#@_..." />
           </folding>
         </state>
       </provider>

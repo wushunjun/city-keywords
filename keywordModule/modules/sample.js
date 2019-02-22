@@ -100,10 +100,36 @@ layui.define(function (exports) {
     };
     //文本框键入关键词
     admin.events.addWord = function (obj) {
-        var words_arr = $('#text_words').val().split('，');
-        var html_str = '';
-        $.each(words_arr,function(idx,item){
-            html_str += insert_words(item);
+        if($('#text_words').val() != ''){
+            var words_arr = $('#text_words').val().split('，');
+            var html_str = '';
+            $.each(words_arr,function(idx,item){
+                html_str += insert_words(item);
+            })
+            $('#text_words').val('');
+        }
+    };
+    //提交关键词
+    admin.events.do_submit = function (obj) {
+        if($("input[name='keywords[]']").length == 0){
+            layer.msg('请添加关键词');return false;
+        }
+        var data = $('#theForm').serialize();
+        var load_index = layer.load(2,{shade: 0.1});
+        $.ajax({
+            url:'kw_search.php',
+            type:'post',
+            data:data,
+            success:function(){
+                layer.close(load_index);
+                layer.msg('提交成功',{icon:1},function(){
+                    //location.href = 'kw_rank.php';
+                })
+            },
+            error:function(){
+                layer.close(load_index);
+                layer.alert('网络连接失败',{icon:2});
+            }
         })
     };
     //自定义关键词弹框
