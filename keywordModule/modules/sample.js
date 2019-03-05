@@ -120,11 +120,17 @@ layui.define(function (exports) {
             url:'kw_search.php',
             type:'post',
             data:data,
-            success:function(){
+            success:function(res){
                 layer.close(load_index);
-                layer.msg('提交成功',{icon:1},function(){
-                    //location.href = 'kw_rank.php';
-                })
+                if(res == 1){
+                    layer.msg('提交成功',{icon:1},function(){
+                        //location.href = 'kw_rank.php';
+                    })
+                }else if(res == -1){
+                    layer.msg('7天内只能提交一次哟！',{icon:2});
+                }else{
+                    layer.msg('提交失败！',{icon:2});
+                }
             },
             error:function(){
                 layer.close(load_index);

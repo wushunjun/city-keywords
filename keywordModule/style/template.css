@@ -132,7 +132,7 @@
 /* 商品列表 */
 .layadmin-message-fluid .layui-col-md12{background: #fff;height: auto;padding-bottom: 50px;}
 .layadmin-message-fluid .layui-input-block{margin-left: 0;}
-.layadmin-message-fluid .layui-form{padding:45px 40px 0 40px;}
+/*.layadmin-message-fluid .layui-form{padding:45px 40px 0 40px;}*/
 .layadmin-message-fluid .layui-form-label{text-align: left;font-size: 18px;padding-left: 10px;}
 .layadmin-message-fluid .layui-textarea{min-height: 120px;font-size: 16px;resize:none;}
 .layadmin-message-fluid .layui-input-right{float: right;}

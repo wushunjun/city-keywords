@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>关键词排名报表</title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="./keywordModule/layui/css/layui.css" media="all">
+    <link rel="stylesheet" href="./keywordModule/style/admin.css" media="all">
+    <link rel="stylesheet" href="./keywordModule/style/template.css" media="all">
+</head>
+<style>
+    .layui-table img{max-width: none}
+    .layui-table-cell{height: 40px;}
+    .demoTable{margin-bottom: 20px;}
+</style>
+<body>
+
+<div class="layui-fluid layadmin-message-fluid">
+    <div class="layui-row layui-col-space15">
+
+        <div class="layui-col-sm12">
+            <div class="layui-card">
+                <div class="layui-card-header">
+                    关键词排名报表 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span style="color: #ED5564">本次排名刷新时间：<?php echo $row['add_time']?></span>
+                </div>
+                <div class="layui-card-body">
+                    <div class="layui-row">
+                        <form class="layui-form" action="" method="post">
+                            <div class="layui-form-item">
+                                <label style="font-size: 16px;" class="layui-form-label">应用设备：</label>
+                                <div class="layui-input-block">
+                                    <input type="radio" name="client" value="0" title="全选" checked="">
+                                    <input type="radio" name="client" value="PC" title="PC端">
+                                    <input type="radio" name="client" value="移动" title="移动端">
+                                </div>
+                            </div>
+                            <div class="layui-form-item">
+                                <label style="font-size: 16px;" class="layui-form-label">搜索引擎：</label>
+                                <div class="layui-input-block">
+                                    <input type="radio" name="engines" value="0" title="全选" checked="">
+                                    <input type="radio" name="engines" value="Baidu" title="百度">
+                                    <input type="radio" name="engines" value="Sogou" title="搜狗">
+                                    <input type="radio" name="engines" value="Google" title="Google">
+                                    <input type="radio" name="engines" value="Haosou" title="好搜">
+                                    <input type="radio" name="engines" value="Shenma" title="神马">
+                                </div>
+                            </div>
+                        </form>
+                        <table class="layui-hide" id="rank_table"></table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<script src="./keywordModule/layui/layui.js"></script>
+<script>
+    layui.config({
+        base: './keywordModule/' //静态资源所在路径
+    }).extend({
+        index: 'lib/index' //主入口模块
+    }).use(['index', 'report']);
+</script>
+</body>
+</html>

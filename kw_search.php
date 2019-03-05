@@ -19,6 +19,11 @@ if(!$domain_name){
 }
 if(empty($dopost)) $dopost = '';
 if($dopost=='save'){
+    $old_task = $dsql->GetOne("Select task_id,status,add_time From `#@__keywords_task` ORDER BY aid DESC limit 1 ; ");
+    if($old_task['add_time'] - time() < 7*24*3600){
+        echo -1;
+        exit();
+    }
     $keywords = implode('|',$keywords);
     $url = 'http://apidata.chinaz.com/BatchAPI/AllRanking';
     $data = [
@@ -29,7 +34,11 @@ if($dopost=='save'){
     $post_data = json_encode($data);
     $res  = json_decode(request_post($url,$post_data),true);
     if($res['StateCode'] == 1){
-        $url1 = 'http://apidata.chinaz.com/batchapi/GetApiData';
+        $task_id = $res['TaskID'];
+        $time = time();
+        $query = "INSERT INTO `#@__keywords_task`(task_id,add_time) Values('$task_id','$time')";
+        $dsql->ExecuteNoneQuery($query);
+        /*$url1 = 'http://apidata.chinaz.com/batchapi/GetApiData';
         $data1 = [
             'taskid' => $res['TaskID'],
         ];
@@ -39,12 +48,14 @@ if($dopost=='save'){
             $result  = json_decode(request_post($url1,$post_data1),true);
             $status = $result['StateCode'];
         }
+        $dsql->ExecuteNoneQuery("DELETE FROM `#@__keywords_rank`");
         foreach($result['Result']['Data'] as $k=>$v){
             foreach($v as $key=>$val){
                 $keyword = $val['Keyword'];
-                $engines = $key;
+                $engines = str_replace("Pc","",str_replace("Mobile","",$key));
                 $collect_count = $val['Result']['CollectCount'];
                 $client = stripos($key, 'Mobile') !== false ? '移动' : 'PC';
+                $rank_str = '';
                 foreach($val['Result']['Ranks'] as $item=>$value){
                     $rank = explode('-',$value['RankStr']);
                     $rank_str .= '第'.$rank[0].'页，第'.$rank[1].'条；';
@@ -54,8 +65,10 @@ if($dopost=='save'){
                 $query = "INSERT INTO `#@__keywords_rank`(keyword,engines,collect_count,client,source,rank,time) Values('$keyword','$engines','$collect_count','$client','$source','$rank_str','$time')";
                 $dsql->ExecuteNoneQuery($query);
             }
-        }
+        }*/
         echo 1;exit();
+    }else{
+        echo 0;exit;
     }
 }else{
     $query = "select * from #@__keywords_rank group by keyword";
