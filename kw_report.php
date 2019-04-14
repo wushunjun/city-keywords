@@ -25,7 +25,7 @@ if ($row['status'] == 0) {
                     $rank_str = '';
                     foreach ($val['Result']['Ranks'] as $item => $value) {
                         $rank = explode('-', $value['RankStr']);
-                        $rank_str .= '第' . $rank[0] . '页，第' . $rank[1] . '条；';
+                        $rank_str .= '第' . $rank[0] . '页，第' . $rank[1] . '条；'; 
                         $source = $value['Url'];
                     }
                     $time = time();
