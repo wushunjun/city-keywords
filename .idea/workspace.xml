@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="afff0869-81b7-4fce-bb2a-b4b8a32eeb94" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/keywordModule/modules/sample.js" afterPath="$PROJECT_DIR$/keywordModule/modules/sample.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/keywordModule/style/template.css" afterPath="$PROJECT_DIR$/keywordModule/style/template.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kw_search.htm" afterPath="$PROJECT_DIR$/kw_search.htm" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kw_search.php" afterPath="$PROJECT_DIR$/kw_search.php" />
     </list>
     <ignored path="layuiAdmin.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,8 +27,8 @@
       <file leaf-file-name="kw_search.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kw_search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+            <state vertical-scroll-proportion="-5.147059">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="83" />
               <folding>
                 <marker date="1551781376127" expanded="true" signature="155:211" placeholder="Select value..#@__sysconfig..." />
                 <marker date="1551781376127" expanded="true" signature="240:301" placeholder="Select value..#@__sysconfig..." />
@@ -50,8 +46,8 @@
       <file leaf-file-name="kw_report.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kw_report.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.441176">
-              <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="37" selection-end-column="126" />
+            <state vertical-scroll-proportion="-6.7058825">
+              <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
               <folding>
                 <marker date="1551781185626" expanded="true" signature="146:201" placeholder="Select task_..#@__keywords_task..." />
                 <marker date="1551781185626" expanded="true" signature="146:227" placeholder="Select task_..#@__keywords_task..." />
@@ -65,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kw_report.htm" pinned="false" current-in-tab="false">
+      <file leaf-file-name="kw_report.htm" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kw_report.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.264706">
-              <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.7687927">
+              <caret line="27" column="87" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="87" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#label#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -79,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kw_search.htm" pinned="false" current-in-tab="true">
+      <file leaf-file-name="kw_search.htm" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kw_search.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7437358">
-              <caret line="92" column="31" selection-start-line="92" selection-start-column="31" selection-end-line="92" selection-end-column="31" />
+            <state vertical-scroll-proportion="-0.7352941">
+              <caret line="91" column="41" selection-start-line="91" selection-start-column="41" selection-end-line="91" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -202,42 +198,10 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layuiAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layuiAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="keywordModule" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layuiAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layuiAdmin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="keywordModule" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -331,6 +295,162 @@
     <entry file="file://$PROJECT_DIR$/kw_search.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+          <folding>
+            <marker date="1551781376127" expanded="true" signature="155:211" placeholder="Select value..#@__sysconfig..." />
+            <marker date="1551781376127" expanded="true" signature="240:301" placeholder="Select value..#@__sysconfig..." />
+            <marker date="1551781376127" expanded="true" signature="581:662" placeholder="Select task_..#@__keywords_task..." />
+            <marker date="1551781376127" expanded="true" signature="1185:1261" placeholder="INSERT INTO `#@__keywords_task`..." />
+            <marker date="1551781376127" expanded="true" signature="1696:1727" placeholder="DELETE FROM ..." />
+            <marker date="1551781376127" expanded="true" signature="2434:2607" placeholder="INSERT INTO `${{$addtable}}`..." />
+            <marker date="1551781376127" expanded="true" signature="2767:2798" placeholder="select * fro..#@_..." />
+            <marker date="1551781376127" expanded="true" signature="2767:2815" placeholder="select * fro..#@_..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kw_report.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1551781185626" expanded="true" signature="146:201" placeholder="Select task_..#@__keywords_task..." />
+            <marker date="1551781185626" expanded="true" signature="146:227" placeholder="Select task_..#@__keywords_task..." />
+            <marker date="1551781185626" expanded="true" signature="575:606" placeholder="DELETE FROM ..." />
+            <marker date="1551781185626" expanded="true" signature="1338:1511" placeholder="INSERT INTO `#@__keywords_rank`..." />
+            <marker date="1551781185626" expanded="true" signature="1620:1661" placeholder="update `#@__..." />
+            <marker date="1551781185626" expanded="true" signature="1626:1646" placeholder="DELETE FROM ..." />
+            <marker date="1551781185626" expanded="true" signature="1695:1793" placeholder="Select task_..#@__keywords_task..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kw_report.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#1;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kw_search.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="91" column="41" selection-start-line="91" selection-start-column="41" selection-end-line="91" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kw_report_data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="97" selection-start-line="15" selection-start-column="97" selection-end-line="15" selection-end-column="97" />
+          <folding>
+            <marker date="1550897991789" expanded="true" signature="318:378" placeholder="select * fro..#@_..." />
+            <marker date="1550897991789" expanded="true" signature="396:427" placeholder="select * fro..#@_..." />
+            <marker date="1550897991789" expanded="true" signature="396:462" placeholder="select * fro..#@_..." />
+            <marker date="1550897991789" expanded="true" signature="396:463" placeholder="select * fro..#@_..." />
+            <marker date="1550897991789" expanded="true" signature="396:470" placeholder="select * fro..#@_..." />
+            <marker date="1550897991789" expanded="true" signature="396:471" placeholder="select * fro..#@_..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keywordModule/modules/sample.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="131" column="48" selection-start-line="131" selection-start-column="48" selection-end-line="131" selection-end-column="48" />
+          <folding>
+            <marker date="1551781488277" expanded="true" signature="656:670" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kw_search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
+          <folding>
+            <marker date="1551781376127" expanded="true" signature="155:211" placeholder="Select value..#@__sysconfig..." />
+            <marker date="1551781376127" expanded="true" signature="240:301" placeholder="Select value..#@__sysconfig..." />
+            <marker date="1551781376127" expanded="true" signature="581:662" placeholder="Select task_..#@__keywords_task..." />
+            <marker date="1551781376127" expanded="true" signature="1185:1261" placeholder="INSERT INTO `#@__keywords_task`..." />
+            <marker date="1551781376127" expanded="true" signature="1696:1727" placeholder="DELETE FROM ..." />
+            <marker date="1551781376127" expanded="true" signature="2434:2607" placeholder="INSERT INTO `${{$addtable}}`..." />
+            <marker date="1551781376127" expanded="true" signature="2767:2798" placeholder="select * fro..#@_..." />
+            <marker date="1551781376127" expanded="true" signature="2767:2815" placeholder="select * fro..#@_..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kw_report.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="37" selection-end-column="126" />
+          <folding>
+            <marker date="1551781185626" expanded="true" signature="146:201" placeholder="Select task_..#@__keywords_task..." />
+            <marker date="1551781185626" expanded="true" signature="146:227" placeholder="Select task_..#@__keywords_task..." />
+            <marker date="1551781185626" expanded="true" signature="575:606" placeholder="DELETE FROM ..." />
+            <marker date="1551781185626" expanded="true" signature="1338:1511" placeholder="INSERT INTO `#@__keywords_rank`..." />
+            <marker date="1551781185626" expanded="true" signature="1620:1661" placeholder="update `#@__..." />
+            <marker date="1551781185626" expanded="true" signature="1626:1646" placeholder="DELETE FROM ..." />
+            <marker date="1551781185626" expanded="true" signature="1695:1793" placeholder="Select task_..#@__keywords_task..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kw_report.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#1;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kw_search.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kw_report_data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="97" selection-start-line="15" selection-start-column="97" selection-end-line="15" selection-end-column="97" />
+          <folding>
+            <marker date="1550897991789" expanded="true" signature="318:378" placeholder="select * fro..#@_..." />
+            <marker date="1550897991789" expanded="true" signature="396:427" placeholder="select * fro..#@_..." />
+            <marker date="1550897991789" expanded="true" signature="396:462" placeholder="select * fro..#@_..." />
+            <marker date="1550897991789" expanded="true" signature="396:463" placeholder="select * fro..#@_..." />
+            <marker date="1550897991789" expanded="true" signature="396:470" placeholder="select * fro..#@_..." />
+            <marker date="1550897991789" expanded="true" signature="396:471" placeholder="select * fro..#@_..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keywordModule/modules/sample.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="131" column="48" selection-start-line="131" selection-start-column="48" selection-end-line="131" selection-end-column="48" />
+          <folding>
+            <marker date="1551781488277" expanded="true" signature="656:670" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kw_search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
           <folding>
             <marker date="1551781376127" expanded="true" signature="155:211" placeholder="Select value..#@__sysconfig..." />
@@ -377,9 +497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="67" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
-          <folding>
-            <marker date="1550897827941" expanded="true" signature="526:539" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -457,9 +574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="67" selection-start-line="32" selection-start-column="67" selection-end-line="32" selection-end-column="67" />
-          <folding>
-            <marker date="1550897827941" expanded="true" signature="526:539" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -553,6 +667,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/keywordModule/modules/report.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5065789">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keywordModule/modules/sample.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="131" column="48" selection-start-line="131" selection-start-column="48" selection-end-line="131" selection-end-column="48" />
+          <folding>
+            <marker date="1551781488277" expanded="true" signature="656:670" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kw_search.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7352941">
+          <caret line="91" column="41" selection-start-line="91" selection-start-column="41" selection-end-line="91" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kw_report.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.7058825">
+          <caret line="38" column="2" selection-start-line="38" selection-start-column="2" selection-end-line="38" selection-end-column="2" />
+          <folding>
+            <marker date="1551781185626" expanded="true" signature="146:201" placeholder="Select task_..#@__keywords_task..." />
+            <marker date="1551781185626" expanded="true" signature="146:227" placeholder="Select task_..#@__keywords_task..." />
+            <marker date="1551781185626" expanded="true" signature="575:606" placeholder="DELETE FROM ..." />
+            <marker date="1551781185626" expanded="true" signature="1338:1511" placeholder="INSERT INTO `#@__keywords_rank`..." />
+            <marker date="1551781185626" expanded="true" signature="1620:1661" placeholder="update `#@__..." />
+            <marker date="1551781185626" expanded="true" signature="1626:1646" placeholder="DELETE FROM ..." />
+            <marker date="1551781185626" expanded="true" signature="1695:1793" placeholder="Select task_..#@__keywords_task..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kw_search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.147059">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="83" />
+          <folding>
+            <marker date="1551781376127" expanded="true" signature="155:211" placeholder="Select value..#@__sysconfig..." />
+            <marker date="1551781376127" expanded="true" signature="240:301" placeholder="Select value..#@__sysconfig..." />
+            <marker date="1551781376127" expanded="true" signature="581:662" placeholder="Select task_..#@__keywords_task..." />
+            <marker date="1551781376127" expanded="true" signature="1185:1261" placeholder="INSERT INTO `#@__keywords_task`..." />
+            <marker date="1551781376127" expanded="true" signature="1696:1727" placeholder="DELETE FROM ..." />
+            <marker date="1551781376127" expanded="true" signature="2434:2607" placeholder="INSERT INTO `${{$addtable}}`..." />
+            <marker date="1551781376127" expanded="true" signature="2767:2798" placeholder="select * fro..#@_..." />
+            <marker date="1551781376127" expanded="true" signature="2767:2815" placeholder="select * fro..#@_..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/kw_report_data.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-11.029411">
@@ -568,76 +740,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/keywordModule/modules/report.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5065789">
-          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
-          <folding>
-            <marker date="1550897827941" expanded="true" signature="526:539" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/keywordModule/modules/sample.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="131" column="48" selection-start-line="131" selection-start-column="48" selection-end-line="131" selection-end-column="48" />
-          <folding>
-            <marker date="1551781488277" expanded="true" signature="656:670" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kw_report.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.441176">
-          <caret line="36" column="1" selection-start-line="36" selection-start-column="1" selection-end-line="37" selection-end-column="126" />
-          <folding>
-            <marker date="1551781185626" expanded="true" signature="146:201" placeholder="Select task_..#@__keywords_task..." />
-            <marker date="1551781185626" expanded="true" signature="146:227" placeholder="Select task_..#@__keywords_task..." />
-            <marker date="1551781185626" expanded="true" signature="575:606" placeholder="DELETE FROM ..." />
-            <marker date="1551781185626" expanded="true" signature="1338:1511" placeholder="INSERT INTO `#@__keywords_rank`..." />
-            <marker date="1551781185626" expanded="true" signature="1620:1661" placeholder="update `#@__..." />
-            <marker date="1551781185626" expanded="true" signature="1626:1646" placeholder="DELETE FROM ..." />
-            <marker date="1551781185626" expanded="true" signature="1695:1793" placeholder="Select task_..#@__keywords_task..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kw_search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="40" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
-          <folding>
-            <marker date="1551781376127" expanded="true" signature="155:211" placeholder="Select value..#@__sysconfig..." />
-            <marker date="1551781376127" expanded="true" signature="240:301" placeholder="Select value..#@__sysconfig..." />
-            <marker date="1551781376127" expanded="true" signature="581:662" placeholder="Select task_..#@__keywords_task..." />
-            <marker date="1551781376127" expanded="true" signature="1185:1261" placeholder="INSERT INTO `#@__keywords_task`..." />
-            <marker date="1551781376127" expanded="true" signature="1696:1727" placeholder="DELETE FROM ..." />
-            <marker date="1551781376127" expanded="true" signature="2434:2607" placeholder="INSERT INTO `${{$addtable}}`..." />
-            <marker date="1551781376127" expanded="true" signature="2767:2798" placeholder="select * fro..#@_..." />
-            <marker date="1551781376127" expanded="true" signature="2767:2815" placeholder="select * fro..#@_..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kw_report.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.264706">
-          <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.7687927">
+          <caret line="27" column="87" selection-start-line="27" selection-start-column="58" selection-end-line="27" selection-end-column="87" />
           <folding>
             <element signature="n#style#0;n#span#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#label#0;n#div#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#label#0;n#div#1;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kw_search.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7437358">
-          <caret line="92" column="31" selection-start-line="92" selection-start-column="31" selection-end-line="92" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>

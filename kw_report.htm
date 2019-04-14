@@ -12,12 +12,68 @@
     <link rel="stylesheet" href="./keywordModule/style/template.css" media="all">
 </head>
 <style>
-    .layui-table img{max-width: none}
-    .layui-table-cell{height: 40px;}
-    .demoTable{margin-bottom: 20px;}
+    .layui-table img {
+        max-width: none
+    }
+
+    .layui-table-cell {
+        height: 40px;
+    }
+
+    .demoTable {
+        margin-bottom: 20px;
+    }
 </style>
 <body>
+<div class="layui-fluid layadmin-message-fluid">
+    <div class="layui-row layui-col-space15">
 
+        <div class="layui-col-sm12">
+            <div class="layui-card">
+                <div class="layui-card-header">
+                    关键词排名统计
+                </div>
+                <div class="layui-card-body" style="height: 410px;">
+                    <div class="layui-col-sm6" style="position: relative;">
+                        <div style="margin: 0 auto;border:1px solid #e1e1e1;text-align: center;border-radius: 5px;color:orange;line-height: 40px;font-size: 16px;font-weight: 800px;width: 70%">
+                            关键词上线数
+                            <p style="border-top: 1px solid #e1e1e1">
+                                <?php echo $data['totle'];?>
+                            </p>
+                        </div>
+                        <div class="layui-carousel layadmin-carousel layadmin-dataview" data-anim="fade"
+                             lay-filter="LAY-index-pageone">
+                            <div carousel-item id="LAY-index-pageone1">
+                                <div><i class="layui-icon layui-icon-loading1 layadmin-loading"></i></div>
+                            </div>
+                        </div>
+                        <div style="position: absolute;left: 46%;top: 49%">
+                            <p style="color: #c3c3c3;text-align: center;font-size: 16px">上线</p>
+                            <p style="color: #ff6000;text-align: center;font-size: 30px;line-height: 30px;"><?php echo $data['totle'];?></p>
+                            <p style="color: #c3c3c3;text-align: center;font-size: 16px;">个关键词</p>
+                        </div>
+                    </div>
+                    <div class="layui-col-sm6">
+                        <div style="margin: 0 auto;border:1px solid #e1e1e1;text-align: center;border-radius: 5px;color:#009688;line-height: 40px;font-size: 16px;font-weight: 800px;width: 70%">
+                            搜索前三页信息数
+                            <p style="border-top: 1px solid #e1e1e1">
+                                <?php echo $data['before_three'];?>
+                            </p>
+                        </div>
+                        <div class="layui-carousel layadmin-carousel layadmin-dataview" data-anim="fade"
+                             lay-filter="LAY-index-pageone">
+                            <div carousel-item id="LAY-index-pageone">
+                                <div><i class="layui-icon layui-icon-loading1 layadmin-loading"></i></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
 <div class="layui-fluid layadmin-message-fluid">
     <div class="layui-row layui-col-space15">
 
@@ -32,6 +88,7 @@
                         <form class="layui-form" action="" method="post">
                             <div class="layui-form-item">
                                 <label style="font-size: 16px;" class="layui-form-label">应用设备：</label>
+
                                 <div class="layui-input-block">
                                     <input type="radio" name="client" value="0" title="全选" checked="">
                                     <input type="radio" name="client" value="PC" title="PC端">
@@ -40,13 +97,14 @@
                             </div>
                             <div class="layui-form-item">
                                 <label style="font-size: 16px;" class="layui-form-label">搜索引擎：</label>
+
                                 <div class="layui-input-block">
                                     <input type="radio" name="engines" value="0" title="全选" checked="">
                                     <input type="radio" name="engines" value="Baidu" title="百度">
                                     <input type="radio" name="engines" value="Sogou" title="搜狗">
-                                    <input type="radio" name="engines" value="Google" title="Google">
+                                    <!-- <input type="radio" name="engines" value="Google" title="Google"> -->
                                     <input type="radio" name="engines" value="Haosou" title="好搜">
-                                    <input type="radio" name="engines" value="Shenma" title="神马">
+                                    <!-- <input type="radio" name="engines" value="Shenma" title="神马"> -->
                                 </div>
                             </div>
                         </form>
@@ -55,8 +113,7 @@
                 </div>
             </div>
         </div>
-
-
+        <input type="hidden" id='data_json' value='<?php echo $data_json;?>'>
     </div>
 </div>
 <script src="./keywordModule/layui/layui.js"></script>
