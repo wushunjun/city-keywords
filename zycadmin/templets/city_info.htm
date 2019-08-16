@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="<?php echo $cfg_soft_lang; ?>">
+    <title><?php echo $cfg_softname; ?></title>
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="keywordModule/layui/css/layui.css" media="all"/>
+    <link rel="stylesheet" href="../publics/iconfont/iconfont.css" media="all"/>
+    <link rel="stylesheet" href="css/admin.css" media="all"/>
+    <script language="javascript" src="js/jquery/jquery.js"></script>
+</head>
+<body class="childrenBody">
+<div class="x-nav">
+	<span class="layui-breadcrumb" style="visibility: inherit">
+	  <a href="city_list.php">分站列表<span class="layui-box">&gt;</span></a>
+	  <a><cite>添加分站</cite></a>
+	</span>
+    <a class="layui-btn layui-btn-small refresh" href="javascript:location.replace(location.href);" title="刷新"><i
+            class="iconfont icon-refresh" style="line-height:30px"></i></a>
+</div>
+<form id="theForm" action="city_do.php" enctype="multipart/form-data" method="post"
+      class="layui-form layui-form-pane layui-mt-10">
+    <input type="hidden" name="id" value="<?php echo $info['id']; ?>"/>
+    <input type="hidden" name="dopost" value="save"/>
+
+    <div class="layui-form-item">
+        <div class="layui-form-item">
+            <label class="layui-form-label">城市名称</label>
+
+            <div class="layui-input-block">
+                <input name="name" id="name" value="<?php echo $info['name']; ?>" type="text" class="layui-input" lay-verify="name" placeholder="请输入城市名称">
+            </div>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-form-item">
+            <label class="layui-form-label">城市拼音</label>
+
+            <div class="layui-input-block">
+                <input name="pinyin" id="pinyin" value="<?php echo $info['pinyin']; ?>" type="text" class="layui-input" lay-verify="pinyin" placeholder="城市拼音">
+            </div>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-form-item">
+            <label class="layui-form-label">轮播栏目id</label>
+
+            <div class="layui-input-block">
+                <input name="banner_id" id="banner_id" value="<?php echo $info['banner_id']; ?>" type="text" class="layui-input" lay-verify="banner_id" placeholder="轮播栏目id">
+            </div>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-form-item">
+            <label class="layui-form-label">产品id</label>
+
+            <div class="layui-input-block">
+                <input name="product_id" id="product_id" value="<?php echo $info['product_id']; ?>" type="text" class="layui-input" lay-verify="product_id" placeholder="产品栏目id">
+            </div>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <div class="layui-form-item">
+            <label class="layui-form-label">新闻id</label>
+
+            <div class="layui-input-block">
+                <input name="news_id" id="news_id" value="<?php echo $info['news_id']; ?>" type="text" class="layui-input" lay-verify="news_id" placeholder="新闻栏目id">
+            </div>
+        </div>
+    </div>
+    <div class="layui-form-item">
+        <!--<div class="layui-inline">
+            <label class="layui-form-label">是否主站</label>
+
+            <div class="layui-input-inline" style="width:450px;">
+                <input type="radio" name="is_master" value="1" title="是">
+                <input type="radio" name="is_master" value="0" title="否" checked="">
+            </div>
+        </div>-->
+        <div class="layui-form-item" pane="">
+            <label class="layui-form-label">是否主站</label>
+            <div class="layui-input-block">
+                <input type="radio" name="is_master" value="1" title="是" <?php echo $info['is_master'] ? 'checked' : ''; ?>>
+                <input type="radio" name="is_master" value="0" title="否" <?php echo $info['is_master'] ? '' : 'checked'; ?>>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="layui-form-item">
+        <div class="layui-input-block">
+            <button type="button" id="sub_btn" class="layui-btn">提交保存</button>
+            <button type="reset" class="layui-btn layui-btn-danger">重置</button>
+            <a class="layui-btn layui-btn-primary" href="javascript:;" onClick='history.go(-1);'>返回</a>
+        </div>
+    </div>
+</form>
+<script type="text/javascript" src="keywordModule/layui/layui.js"></script>
+<script>
+    layui.config({
+        base: './keywordModule/' //静态资源所在路径
+    }).extend({
+        index: 'lib/index' //主入口模块
+    }).use(['index', 'city']);
+</script>
+</body>
+</html>

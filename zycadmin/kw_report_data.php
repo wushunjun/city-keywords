@@ -12,8 +12,9 @@ if($engines){
     $where .= ' and engines = "'.$engines.'"';
 }
 $start = ($page - 1) * $limit;
-$query_count = "select * from #@__keywords_rank $where order by engines desc";
-$query_data = "select * from #@__keywords_rank $where order by engines desc limit $start,$limit";
+$query_count = "select * from #@__keywords_rank $where group by keyword,engines,client order by engines desc";
+//$query_data = "select * from #@__keywords_rank $where group by keyword,engines,client order by `type` asc,time desc limit $start,$limit";
+$query_data = "select * from (select * from #@__keywords_rank $where order by `type` asc,time desc limit $start,$limit) as t WHERE rank <> '' group by t.keyword,t.engines,t.client order by t.`type`";
 $dsql->Execute('count',$query_count);
 $count = $dsql->GetTotalRow($rsid="count");
 $dsql->Execute('me',$query_data);

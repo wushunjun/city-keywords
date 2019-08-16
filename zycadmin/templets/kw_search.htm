@@ -27,7 +27,7 @@
                                     style="border-width: 1px;border-radius:5px;min-height: 214px;position: relative;overflow: hidden">
                             <div class="layui-form-item layui-form-text" id="first_box"
                                  style="position: absolute;left: 1%;top: 8%;width: 98%">
-                                    <textarea name="desc" placeholder="关键词用逗号隔开：例 关键词1，关键词2" id="text_words"
+                                    <textarea name="desc" placeholder="多个关键词以中文逗号隔开，或者一行一个" id="text_words"
                                               class="layui-textarea"
                                               style="height: 172px;margin-bottom: 10px;"></textarea>
 
@@ -70,7 +70,7 @@
                                      style="border-left: 3px solid #009688;height: 25px;line-height: 25px;margin: 9px 0 9px 25px;border-bottom: none">
                                     已选词库
                                     <div class="layui-input-block layui-input-right">
-                                        <button class="layui-btn layui-btn-primary layui-btn-sm"><i class="layui-icon">
+                                        <button type="button" class="layui-btn layui-btn-primary layui-btn-sm" layadmin-event="clear"><i class="layui-icon">
                                             &#xe640;</i> 清空
                                         </button>
                                     </div>

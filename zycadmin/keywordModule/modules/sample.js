@@ -101,7 +101,7 @@ layui.define(function (exports) {
     //文本框键入关键词
     admin.events.addWord = function (obj) {
         if($('#text_words').val() != ''){
-            var words_arr = $('#text_words').val().split('，');
+            var words_arr = $('#text_words').val().indexOf('，') > 0 ? $('#text_words').val().split('，') : $('#text_words').val().split('\n');
             var html_str = '';
             $.each(words_arr,function(idx,item){
                 html_str += insert_words(item);
@@ -137,6 +137,10 @@ layui.define(function (exports) {
                 layer.alert('网络连接失败',{icon:2});
             }
         })
+    };
+    //文本框键入关键词
+    admin.events.clear = function (obj) {
+        $('#select_words').html('');
     };
     //自定义关键词弹框
     admin.events.diyWord = function (obj) {

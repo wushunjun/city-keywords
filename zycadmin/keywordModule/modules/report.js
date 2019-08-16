@@ -26,9 +26,15 @@ layui.define(function (exports) {
                 , {field: 'client', width: 180, title: '引擎来源'}
                 , {field: 'rank', title: '排名', minWidth: 250}
                 , {field: 'source', width: 180, title: '主要来源'}
-                , {field: 'collect_count', width: 180, title: '收录量'}
+                //, {field: 'collect_count', width: 180, title: '收录量'}
+                , {
+                    field: 'engines', width: 180, title: '操作', templet: function (res) {
+                        return '<a href="' + res.url + '" target="_blank" style="color: #3366FF">查看结果</a>';
+                    }
+                }
             ]]
             , page: true
+            , limit : 30
         });
         $("body").on('click', '.layui-form-radio', function () {
             console.log($('form').serialize());
@@ -91,12 +97,12 @@ layui.define(function (exports) {
                 polar: [
                     {
                         indicator: [
-                            {text: '百度PC'+data_json['Baidu']['pc']+'个', max: data_json['max']},
-                            {text: '360PC'+data_json['Haosou']['pc']+'个', max: data_json['max']},
-                            {text: '搜狗PC'+data_json['Sogou']['pc']+'个', max: data_json['max']},
-                            {text: '百度移动'+data_json['Baidu']['mobile']+'个', max: data_json['max']},
-                            {text: '360移动'+data_json['Haosou']['mobile']+'个', max: data_json['max']},
-                            {text: '搜狗移动'+data_json['Sogou']['mobile']+'个', max: data_json['max']}
+                            {text: '百度PC'+(typeof data_json['Baidu']['pc'] != 'undefined' ? data_json['Baidu']['pc'] + '个' : '等待数据返回'), max: data_json['max']},
+                            {text: '360PC'+(typeof data_json['Haosou']['pc'] != 'undefined' ? data_json['Haosou']['pc'] + '个' : '等待数据返回'), max: data_json['max']},
+                            {text: '搜狗PC'+(typeof data_json['Sogou']['pc'] != 'undefined' ? data_json['Sogou']['pc'] + '个' : '等待数据返回'), max: data_json['max']},
+                            {text: '百度移动'+(typeof data_json['Baidu']['mobile'] != 'undefined' ? data_json['Baidu']['mobile'] + '个' : '等待数据返回'), max: data_json['max']},
+                            {text: '360移动'+(typeof data_json['Haosou']['mobile'] != 'undefined' ? data_json['Haosou']['mobile'] + '个' : '等待数据返回'), max: data_json['max']},
+                            {text: '搜狗移动'+(typeof data_json['Sogou']['mobile'] != 'undefined' ? data_json['Sogou']['mobile'] + '个' : '等待数据返回'), max: data_json['max']}
                         ],
                         radius: "66%"
                     }
