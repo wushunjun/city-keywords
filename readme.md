@@ -4,6 +4,6 @@
 * {product_id}：替换产品栏目id
 * {news_id}：替换新闻栏目id
 ## 分站列表输出
-{dede:loop table='dede_city_site' sort='' row='50' if=''}
- <a href="/city/[field:pinyin/].html">[field:name/]</a>
-{/dede:loop}
+${dede:loop table='dede_city_site' sort='' row='50' if=''}
+$ <a href="/city/[field:pinyin/].html">[field:name/]</a>
+${/dede:loop}
